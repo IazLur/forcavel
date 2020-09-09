@@ -3,4 +3,4 @@
 ### Originality
 Full static & typed php based framework.
 ### Forcavel-cli
-php web.php make::controller::KebabController
+php web make::controller::KebabController
