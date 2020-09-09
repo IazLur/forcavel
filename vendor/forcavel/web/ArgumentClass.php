@@ -2,17 +2,8 @@
 
 namespace vendor\forcavel\web;
 
-class ArgumentClass
+class ForcavelCli
 {
-    /**
-     * @var string[]
-     */
-    private static $args = [
-        'make' => [
-            'controller'
-        ]
-    ];
-
     /**
      * @param array $cmds
      * @return bool

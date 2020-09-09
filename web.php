@@ -2,7 +2,7 @@
 
 require_once('vendor/forcavel/bootstrap.php');
 
-use vendor\forcavel\web\ArgumentClass;
+use vendor\forcavel\web\ForcavelCli;
 
-ArgumentClass::ProcessArgument($_SERVER['argv']);
+ForcavelCli::ProcessArgument($_SERVER['argv']);
 
